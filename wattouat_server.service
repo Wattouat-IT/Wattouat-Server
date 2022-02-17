@@ -1,0 +1,12 @@
+[Unit]
+Description=Wattouat Server Service
+ConditionFileIsExecutable=/bin/wattouat/wattouat_server_service.sh
+After=network.target
+
+[Service]
+Type=oneshot
+RemainAfterExit=yes
+ExecStart=/bin/wattouat/wattouat_server_service.sh
+
+[Install]
+WantedBy=multi-user.target
