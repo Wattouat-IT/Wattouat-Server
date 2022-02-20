@@ -19,7 +19,7 @@ git clone https://github.com/Wattouat-IT/Wattouat-Server.git
 
 Edit the file ``` wattouat.conf```
 
- - ip, your local ip who run the database
+ - ip : your local ip who run the database
 
 ## Server installation
 
@@ -49,10 +49,10 @@ The name of the database is Elisa.
 
 To see if the data base has been created
 
-Default user and password is root / root on your host machine.
+Default user and password is root / root on your host machine or admin / root on remote access.
 
 ``` shell
-mysql -uroot -proot elisa
+mysql -uroot -proot elisa -h <ip_address>
 ```
 
 See all tables of elisa database
@@ -60,10 +60,6 @@ See all tables of elisa database
 ``` mysql
 show tables;
 ```
-
-## Defaut user admin
-
-Name and password is ```admin admin```
 
 ## Command 
 
@@ -73,3 +69,12 @@ Name and password is ```admin admin```
 
 http://<server_ip>/wattouat/
 
+## Uninstall Wattouat
+
+Go into ```/bin/wattouat/fonction```
+
+Execute file ```wattouat_uninstall.sh```
+
+## Defaut user admin
+
+Name and password is ```admin admin```
