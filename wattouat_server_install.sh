@@ -25,6 +25,7 @@ cp -R fonction /bin/wattouat/
 
 # Command
 echo "alias wattouat_user='bash /bin/wattouat/fonction/mysql/add_user.sh'" >> ~/.bashrc
+exec bash 
 
 # Database
 bash db.sh

@@ -31,12 +31,12 @@ CREATE TABLE `user`(
 );
 
 /* Table 'prix_unitaire_kwh' */
-CREATE TABLE prix_unitaire_kwh(prix_en_euro INT(10));
+CREATE TABLE prix_unitaire_kwh(prix_en_euro FLOAT(5));
 
 /* Table 'kwh' */
 CREATE TABLE kwh(
   id INT NOT NULL AUTO_INCREMENT,
-  kwh INT(20),
+  kwh FLOAT(20),
   cpu_id INT,
   PRIMARY KEY(id)
 );
