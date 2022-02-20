@@ -32,7 +32,11 @@ bash db.sh
 sleep 2
 
 # Default parameters
+## Function
+
+## Mysql
 bash /bin/wattouat/fonction/mysql/admin_user.sh
+bash /bin/wattouat/fonction/mysql/server_info.sh
 
 # Website
 cp -R wattouat /var/www/html

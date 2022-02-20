@@ -4,7 +4,7 @@ CREATE TABLE node_info(
   host_name VARCHAR(30),
   os VARCHAR(30),
   ip VARCHAR(20),
-  `date_add` DATE,
+  `date_add` DATETIME,
   up_time DATE,
   day_time VARCHAR(20),
   PRIMARY KEY(id)
