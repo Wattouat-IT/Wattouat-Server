@@ -1,4 +1,4 @@
-# Wattouat-Server
+# Wattouat Server
 
 The first release was only tested and developed on Debian Buster. Don't try with a other because we don't know if it is still stable. 
 
@@ -9,12 +9,24 @@ The first release was only tested and developed on Debian Buster. Don't try with
 - Git (apt install git) 
 - Be root (su) 
 
-## Server installation
+## Clone the repositorie
 
 ``` shell 
 git clone https://github.com/Wattouat-IT/Wattouat-Server.git
-cd Wattouat-Server
-./wattouat_server_install.sh
+```
+
+## Edit the configuration file
+
+Edit the file ``` wattouat.conf```
+
+ - ip, your local ip who run the database
+
+## Server installation
+
+Executing the script
+
+``` shell 
+bash wattouat_server_install.sh
 ```
 
 ## Service Wattouat
@@ -49,6 +61,15 @@ See all tables of elisa database
 show tables;
 ```
 
+## Defaut user admin
+
+Name and password is ```admin admin```
+
+## Command 
+
+- wattouat_user : add a new user
+
 ## Access to the website
 
 http://<server_ip>/wattouat/
+
