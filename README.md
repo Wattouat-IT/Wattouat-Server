@@ -27,6 +27,7 @@ Executing the script
 
 ``` shell 
 bash wattouat_server_install.sh
+exec bash
 ```
 
 ## Service Wattouat
