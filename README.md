@@ -70,12 +70,12 @@ show tables;
 
 http://<server_ip>/wattouat/
 
-## Uninstall Wattouat
+## Defaut user admin
+
+Name and password is ```admin admin```
+
+## Uninstall Wattouat Server
 
 Go into ```/bin/wattouat/fonction```
 
 Execute file ```wattouat_uninstall.sh```
-
-## Defaut user admin
-
-Name and password is ```admin admin```
