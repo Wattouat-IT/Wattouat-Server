@@ -1,13 +1,28 @@
 # Wattouat Server
 
-The first release was only tested and developed on Debian Buster. Don't try with a other because we don't know if it is still stable. 
-
 ## Prerequisites
 
-- Debian buster 
 - Internet connection
 - Git (apt install git) 
 - Be root (su) 
+
+## Stable version
+
+Supported version :
+
+- ![Debian](https://img.shields.io/badge/Debian-D70A53?style=for-the-badge&logo=debian&logoColor=white)
+    - [X] Bullseye 
+        - Status : Stable
+    - [X] Buster
+        - Status : Stable
+    - [ ] Strech
+        - Status : Not tested
+
+- ![Ubuntu](https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white)
+    - [X] 20.04 LTS
+        - Status : Stable
+    - [X] 18.04.1 LTS
+        - Status : Stable
 
 ## Clone the repositorie
 
