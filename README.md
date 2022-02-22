@@ -3,8 +3,8 @@
 ## Prerequisites
 
 - Internet connection
-- Git (apt install git) 
-- Be root (su) 
+- Git
+- Root 
 
 ## Stable version
 
@@ -19,9 +19,11 @@ Supported version :
         - Status : Not tested
 
 - ![Ubuntu](https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white)
+    - [X] 21.04 LTS
+        - Status : Stable
     - [X] 20.04 LTS
         - Status : Stable
-    - [X] 18.04.1 LTS
+    - [X] 18.04 LTS
         - Status : Stable
 
 ## Clone the repositorie
