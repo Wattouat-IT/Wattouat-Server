@@ -4,9 +4,11 @@ ConditionFileIsExecutable=/bin/wattouat/wattouat_server_service.sh
 After=network.target
 
 [Service]
-Type=oneshot
+Type=simple
 RemainAfterExit=yes
 ExecStart=/bin/wattouat/wattouat_server_service.sh
+KillMode=process
+Restart=on-failure
 
 [Install]
 WantedBy=multi-user.target
