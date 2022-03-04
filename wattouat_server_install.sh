@@ -11,6 +11,7 @@ bash requierement.sh
 
 # Create directory for Wattouat
 mkdir /bin/wattouat
+mkdir /var/log/wattouat_server
 
 # Config file
 cp wattouat.conf /bin/wattouat/

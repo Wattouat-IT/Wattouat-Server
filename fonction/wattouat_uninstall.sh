@@ -18,6 +18,7 @@ case $n in
 	  rm -rf /var/www/html/wattouat
 	  rm -rf /etc/systemd/system/wattouat_server.service
 	  rm -rf /bin/wattouat
+	  rm -rf /var/log/wattouat_server/
 	  ;;
   2) echo "Exit"
 	  exit

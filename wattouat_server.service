@@ -2,12 +2,15 @@
 Description=Wattouat Server Service
 ConditionFileIsExecutable=/bin/wattouat/wattouat_server_service.sh
 After=network.target
+After=mysql.service
 
 [Service]
 Type=simple
 RemainAfterExit=yes
 ExecStart=/bin/wattouat/wattouat_server_service.sh
-KillMode=process
+KillMode=all
+StandardOutput=append:/var/log/wattouat_server/log1.log
+StandardError=append:/var/log/wattouat_server/log2.log
 Restart=on-failure
 
 [Install]
