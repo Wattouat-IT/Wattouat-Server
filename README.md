@@ -1,10 +1,15 @@
 # Wattouat Server
 
-## Prerequisites
+## Table of Contents
 
-- Internet connection
-- Git
-- Root 
+- [Stable version](#stable-version)
+- [Prerequisites](#prerequisites)
+- [Installation](#installation)
+- [Database](#access-to-the-database)
+- [Command](#command)
+- [Interface](#interface)
+- [Log file](#log-file)
+- [Uninstall Wattouat Server](#uninstall-wattouat-server)
 
 ## Stable version
 
@@ -26,19 +31,27 @@ Supported version :
     - [X] 18.04 LTS
         - Status : Stable
 
-## Clone the repositorie
+## Prerequisites
+
+- Internet connection
+- Git
+- Root 
+
+## Installation 
+
+### Clone the repositorie
 
 ``` shell 
 git clone https://github.com/Wattouat-IT/Wattouat-Server.git
 ```
 
-## Edit the configuration file
+### Edit the configuration file
 
 Edit the file ``` wattouat.conf```
 
  - ip : your local ip who run the database
 
-## Server installation
+### Server installation
 
 Executing the script
 
@@ -47,7 +60,7 @@ bash wattouat_server_install.sh
 exec bash
 ```
 
-## Service Wattouat
+### Service Wattouat
 
 Launch the service
 
@@ -83,13 +96,23 @@ show tables;
 
 - wattouat_user : add a new user
 
-## Access to the website
+## Interface
 
 http://<server_ip>/wattouat/
 
 ## Defaut user admin
 
 Name and password is ```admin admin```
+
+## Log file 
+
+Go into ```/var/log/wattouat_server/```
+
+There are 2 files: 
+
+First is for Standard Output
+
+Second is for Standard Error
 
 ## Uninstall Wattouat Server
 
