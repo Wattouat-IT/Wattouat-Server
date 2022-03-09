@@ -15,7 +15,7 @@
 
 Supported version :
 
-- ![Debian](https://img.shields.io/badge/Debian-D70A53?style=for-the-badge&logo=debian&logoColor=white)
+- ![Debian](https://img.shields.io/badge/Debian-D70A53?style=for-the-badge=appveyor&logo=debian&logoColor=white)
     - [X] Bullseye 
         - Status : Stable
     - [X] Buster
@@ -23,7 +23,7 @@ Supported version :
     - [ ] Strech
         - Status : Not tested
 
-- ![Ubuntu](https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white)
+- ![Ubuntu](https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge=appveyor&logo=ubuntu&logoColor=white)
     - [X] 21.04 LTS
         - Status : Stable
     - [X] 20.04 LTS
