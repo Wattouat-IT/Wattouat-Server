@@ -13,7 +13,7 @@
 
 ## Stable version
 
-Supported version :
+Supported version:
 
 - ![Debian](https://img.shields.io/badge/Debian-D70A53?style=for-the-badge=appveyor&logo=debian&logoColor=white)
     - [X] Bullseye 
@@ -44,6 +44,8 @@ Supported version :
 ``` shell 
 git clone https://github.com/Wattouat-IT/Wattouat-Server.git
 ```
+
+And go inside the folder Wattouat-Server
 
 ### Edit the configuration file
 
@@ -78,12 +80,18 @@ systemctl start wattouat_server
 
 The name of the database is Elisa.
 
-To see if the data base has been created
+To see if the data base has been created.
 
-Default user and password is root / root on your host machine or admin / root on remote access.
+Default user and password is root / root where the database is hosted.
 
 ``` shell
-mysql -uroot -proot elisa -h <ip_address>
+mysql -u root -proot elisa
+```
+
+Default use user and passwor is admin / root on remote access.
+
+``` shell
+mysql -u admin -proot elisa -h <ip_address>
 ```
 
 See all tables of elisa database
@@ -94,9 +102,11 @@ show tables;
 
 ## Command 
 
-- wattouat_user : add a new user
+```wattouat_user```: add a new user
 
 ## Interface
+
+Access the website
 
 http://<server_ip>/wattouat/
 
