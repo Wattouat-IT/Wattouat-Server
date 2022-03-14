@@ -17,19 +17,19 @@ Supported version:
 
 - ![Debian](https://img.shields.io/badge/Debian-D70A53?style=for-the-badge=appveyor&logo=debian&logoColor=white)
     - [X] Bullseye 
-        - Status : Stable
+        - Status: Stable
     - [X] Buster
-        - Status : Stable
+        - Status: Stable
     - [ ] Strech
-        - Status : Not tested
+        - Status: Not tested
 
 - ![Ubuntu](https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge=appveyor&logo=ubuntu&logoColor=white)
     - [X] 21.04 LTS
-        - Status : Stable
+        - Status: Stable
     - [X] 20.04 LTS
-        - Status : Stable
+        - Status: Stable
     - [X] 18.04 LTS
-        - Status : Stable
+        - Status: Stable
 
 ## Prerequisites
 
