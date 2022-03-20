@@ -15,4 +15,4 @@ read password
 echo "Enter your mail :"
 read mail
 
-mysql -u admin -proot elisa -h $ip -e "INSERT INTO user(name, first_name, pwd, email) VALUES ('$name', '$firstname', PASSWORD('$password'), '$email');"
+mysql -u admin -proot elisa -h $ip -e "INSERT INTO user(name, first_name, pwd, email) VALUES ('$name', '$firstname', PASSWORD('$password'), '$mail');"
