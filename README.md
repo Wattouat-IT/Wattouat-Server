@@ -106,6 +106,16 @@ show tables;
 
 ## Interface
 
+### Grafana 
+
+Install Grafana on the webserver. See the following instruction https://grafana.com/docs/grafana/latest/installation/
+
+Import our Dashboard which you can find [here](https://grafana.com/grafana/dashboards/15979)
+
+![Grafana Dashboard](image/grafana.png)
+
+### Website
+
 Access the website
 
 http://<server_ip>/wattouat/
