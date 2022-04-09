@@ -24,9 +24,6 @@ chmod +x /bin/wattouat/wattouat_server_service.sh
 # Function
 cp -R fonction /bin/wattouat/
 
-# Command
-echo "alias wattouat_user='bash /bin/wattouat/fonction/mysql/add_user.sh'" >> ~/.bashrc
-
 # Database
 bash db.sh
 

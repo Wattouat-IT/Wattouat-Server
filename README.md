@@ -6,7 +6,6 @@
 - [Prerequisites](#prerequisites)
 - [Installation](#installation)
 - [Database](#access-to-the-database)
-- [Command](#command)
 - [Interface](#interface)
 - [Log file](#log-file)
 - [Uninstall Wattouat Server](#uninstall-wattouat-server)
@@ -100,10 +99,6 @@ See all tables of elisa database
 show tables;
 ```
 
-## Command 
-
-```wattouat_user```: add a new user
-
 ## Interface
 
 ### Grafana 
@@ -113,16 +108,6 @@ Install Grafana on the webserver. See the following instruction https://grafana.
 Import our Dashboard which you can find [here](https://grafana.com/grafana/dashboards/15979)
 
 ![Grafana Dashboard](image/grafana.png)
-
-### Website
-
-Access the website
-
-http://<server_ip>/wattouat/
-
-## Defaut user admin
-
-Name and password is ```admin admin```
 
 ## Log file 
 

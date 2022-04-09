@@ -13,9 +13,6 @@ case $n in
 
 	  mysql -u admin -proot elisa -h $ip -e "DROP DATABASE elisa;"
 	  
-    sed '/wattouat_user/d' ~/.bashrc
-	  
-	  rm -rf /var/www/html/wattouat
 	  rm -rf /etc/systemd/system/wattouat_server.service
 	  rm -rf /bin/wattouat
 	  rm -rf /var/log/wattouat_server/
